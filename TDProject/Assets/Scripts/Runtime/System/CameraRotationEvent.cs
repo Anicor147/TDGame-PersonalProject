@@ -1,9 +1,8 @@
-using System;
 using UnityEngine;
 
-namespace DefaultNamespace
+namespace Runtime.System
 {
-    public class CameraScript : MonoBehaviour
+    public class CameraRotationEvent : MonoBehaviour
     {
         private Quaternion position;
         private Quaternion rotation;
@@ -31,7 +30,6 @@ namespace DefaultNamespace
             EventManager.Instance.OnCameraChangedRotationEvent(rotation);
             tempRotation = rotation;
         }
-
 
     }
 }
