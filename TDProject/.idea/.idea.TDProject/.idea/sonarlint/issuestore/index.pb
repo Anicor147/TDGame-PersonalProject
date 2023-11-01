@@ -7,3 +7,5 @@ a
 1Assets/Scripts/Runtime/Player/CameraController.cs,b\1\b124ecbdcba46a835d8055f9fd5de98172df2c57
 X
 (Assets/Scripts/Runtime/SpriteBilBoard.cs,c\8\c8440f1cf4edcb0b3403a1db5d3982a493c44569
+]
+-Assets/Scripts/Runtime/System/EventManager.cs,8\d\8d56ecda783d0d20dc510cedb8c0bd197722c4f5

@@ -2,7 +2,7 @@ using UnityEngine;
 
 namespace Runtime.System
 {
-    public class SpriteBilBoard : MonoBehaviour
+    public class SpriteBillBoard : MonoBehaviour
     {
 
         [SerializeField] private bool freezeXZAxis = true;
