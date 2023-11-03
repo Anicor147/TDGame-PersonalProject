@@ -1,18 +1,21 @@
 using System;
+using Runtime.SOScripts.EnemySO;
 using TMPro;
 using UnityEngine;
+using UnityEngine.Serialization;
 
 namespace Runtime.Enemy
 {
     public class EnemySmallKaiju : EnemyBase
     {
+        [SerializeField] private EnemySoScript enemySoScript;
         public  void Start()
         {
-            Health = 100;
-            Speed = 10f;
-            Damage = 5f;
+            Health = enemySoScript.healthValue;
+            Speed = enemySoScript.speedValue;
+            Damage = enemySoScript.damageValue;
         }
-
+        
         public override void TakeDamage(float damage)
         {
         }

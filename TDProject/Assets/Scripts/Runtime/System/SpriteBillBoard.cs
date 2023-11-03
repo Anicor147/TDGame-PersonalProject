@@ -23,7 +23,7 @@ namespace Runtime.System
         {
             if (freezeXZAxis)
             {
-                transform.rotation = Quaternion.Euler(0f,position.eulerAngles.y,0f);    
+                transform.rotation = Quaternion.Euler(0f,position.eulerAngles.y,0f);
             }
         }
 
