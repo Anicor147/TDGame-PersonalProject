@@ -6,7 +6,6 @@ namespace Runtime.System
     {
 
         [SerializeField] private bool freezeXZAxis = true;
-    
         private void Start()
         {
             EventManager.Instance.OnCameraChanged += BillBoardEffect;

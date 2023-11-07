@@ -19,3 +19,9 @@ U
 %Assets/Scripts/Runtime/Core.TD.asmdef,7\8\783725fc222183097e60762e72e461f44d71c2c8
 _
 /Assets/Scripts/Runtime/Player/PlayerMovement.cs,5\6\56b38ef880462c2090915644687b4c61b77b1fba
+a
+1Assets/Scripts/Runtime/Building/BuildingSystem.cs,1\9\193ff680f737e604a063907248b98282427c493f
+b
+2Assets/Scripts/Runtime/Building/PlaceableObject.cs,c\a\ca1034b2090024a82d714374b09477bed9b4ac42
+\
+,Assets/Scripts/Runtime/System/GameManager.cs,d\d\ddd13899a314b68076e33dedca2684af5e5ca5a6
